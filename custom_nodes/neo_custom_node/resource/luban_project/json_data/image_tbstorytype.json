@@ -1,0 +1,388 @@
+[
+  {
+    "type": "默认增强",
+    "upgrade_to_item_id": [
+      "enhance"
+    ]
+  },
+  {
+    "type": "人物质量",
+    "upgrade_to_item_id": [
+      "masterpiece"
+    ]
+  },
+  {
+    "type": "动漫质量",
+    "upgrade_to_item_id": [
+      "anime_enhance"
+    ]
+  },
+  {
+    "type": "发家致富",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  },
+  {
+    "type": "创业",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  },
+  {
+    "type": "打工",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  },
+  {
+    "type": "逆袭",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  },
+  {
+    "type": "爽文",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  },
+  {
+    "type": "修仙",
+    "upgrade_to_item_id": [
+      "bw_water_ink",
+      "water_color_anime"
+    ]
+  },
+  {
+    "type": "武侠",
+    "upgrade_to_item_id": [
+      "bw_water_ink",
+      "water_color_anime"
+    ]
+  },
+  {
+    "type": "古风",
+    "upgrade_to_item_id": [
+      "bw_water_ink",
+      "water_color_anime"
+    ]
+  },
+  {
+    "type": "历史",
+    "upgrade_to_item_id": [
+      "bw_water_ink",
+      "water_color_anime"
+    ]
+  },
+  {
+    "type": "架空",
+    "upgrade_to_item_id": [
+      "bw_water_ink",
+      "water_color_anime"
+    ]
+  },
+  {
+    "type": "玄幻",
+    "upgrade_to_item_id": [
+      "bw_water_ink",
+      "water_color_anime"
+    ]
+  },
+  {
+    "type": "穿越",
+    "upgrade_to_item_id": [
+      "bw_water_ink",
+      "water_color_anime"
+    ]
+  },
+  {
+    "type": "都市",
+    "upgrade_to_item_id": [
+      "25d_metropoly"
+    ]
+  },
+  {
+    "type": "职场",
+    "upgrade_to_item_id": [
+      "25d_metropoly"
+    ]
+  },
+  {
+    "type": "现言",
+    "upgrade_to_item_id": [
+      "25d_metropoly"
+    ]
+  },
+  {
+    "type": "女团",
+    "upgrade_to_item_id": [
+      "25d_metropoly"
+    ]
+  },
+  {
+    "type": "战争",
+    "upgrade_to_item_id": [
+      "war_movie"
+    ]
+  },
+  {
+    "type": "克苏鲁",
+    "upgrade_to_item_id": [
+      "cthulu"
+    ]
+  },
+  {
+    "type": "悬疑",
+    "upgrade_to_item_id": [
+      "horror",
+      "dark_anime"
+    ]
+  },
+  {
+    "type": "灵异",
+    "upgrade_to_item_id": [
+      "horror",
+      "dark_anime"
+    ]
+  },
+  {
+    "type": "惊悚",
+    "upgrade_to_item_id": [
+      "horror",
+      "dark_anime"
+    ]
+  },
+  {
+    "type": "年代",
+    "upgrade_to_item_id": [
+      "chinese_traditional_crayon"
+    ]
+  },
+  {
+    "type": "复仇",
+    "upgrade_to_item_id": [
+      "photorealistic_cinematic"
+    ]
+  },
+  {
+    "type": "科幻",
+    "upgrade_to_item_id": [
+      "edward_blair_wilkins_scifi_style",
+      "sai_fantasy_art"
+    ]
+  },
+  {
+    "type": "反乌托邦",
+    "upgrade_to_item_id": [
+      "edward_blair_wilkins_scifi_style",
+      "sai_fantasy_art"
+    ]
+  },
+  {
+    "type": "现实主义",
+    "upgrade_to_item_id": [
+      "photorealistic_cinematic"
+    ]
+  },
+  {
+    "type": "社会洞察",
+    "upgrade_to_item_id": [
+      "photorealistic_cinematic"
+    ]
+  },
+  {
+    "type": "同人",
+    "upgrade_to_item_id": [
+      "harem_anime_style",
+      "traditional_retro_anime"
+    ]
+  },
+  {
+    "type": "都市异能",
+    "upgrade_to_item_id": [
+      "harem_anime_style"
+    ]
+  },
+  {
+    "type": "超能力",
+    "upgrade_to_item_id": [
+      "harem_anime_style"
+    ]
+  },
+  {
+    "type": "金手指",
+    "upgrade_to_item_id": [
+      "harem_anime_style"
+    ]
+  },
+  {
+    "type": "校园",
+    "upgrade_to_item_id": [
+      "anime_by_yoneyama_mai"
+    ]
+  },
+  {
+    "type": "恋爱",
+    "upgrade_to_item_id": [
+      "anime_by_yoneyama_mai",
+      "jonny_duddle",
+      "25d_metropoly"
+    ]
+  },
+  {
+    "type": "青春",
+    "upgrade_to_item_id": [
+      "anime_by_yoneyama_mai"
+    ]
+  },
+  {
+    "type": "浪漫",
+    "upgrade_to_item_id": [
+      "jonny_duddle",
+      "25d_metropoly"
+    ]
+  },
+  {
+    "type": "情感",
+    "upgrade_to_item_id": [
+      "jonny_duddle",
+      "25d_metropoly"
+    ]
+  },
+  {
+    "type": "转生异世界",
+    "upgrade_to_item_id": [
+      "sai_fantasy_art"
+    ]
+  },
+  {
+    "type": "魔幻",
+    "upgrade_to_item_id": [
+      "sai_fantasy_art"
+    ]
+  },
+  {
+    "type": "西幻",
+    "upgrade_to_item_id": [
+      "sai_fantasy_art"
+    ]
+  },
+  {
+    "type": "魔法",
+    "upgrade_to_item_id": [
+      "sai_fantasy_art"
+    ]
+  },
+  {
+    "type": "后宫",
+    "upgrade_to_item_id": [
+      "harem_anime_style"
+    ]
+  },
+  {
+    "type": "西部牛仔",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  },
+  {
+    "type": "谍战",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  },
+  {
+    "type": "侦探",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  },
+  {
+    "type": "犯罪",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  },
+  {
+    "type": "心理恐怖",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  },
+  {
+    "type": "末世",
+    "upgrade_to_item_id": [
+      "zombie"
+    ]
+  },
+  {
+    "type": "生化",
+    "upgrade_to_item_id": [
+      "zombie"
+    ]
+  },
+  {
+    "type": "僵尸",
+    "upgrade_to_item_id": [
+      "zombie"
+    ]
+  },
+  {
+    "type": "魔物",
+    "upgrade_to_item_id": [
+      "zombie"
+    ]
+  },
+  {
+    "type": "xx大战xx",
+    "upgrade_to_item_id": [
+      "zombie"
+    ]
+  },
+  {
+    "type": "电竞",
+    "upgrade_to_item_id": [
+      "e_sports"
+    ]
+  },
+  {
+    "type": "儿童文学",
+    "upgrade_to_item_id": [
+      "pixar_animation",
+      "cartoon_illustration"
+    ]
+  },
+  {
+    "type": "动物",
+    "upgrade_to_item_id": [
+      "pixar_animation",
+      "cartoon_illustration"
+    ]
+  },
+  {
+    "type": "童话",
+    "upgrade_to_item_id": [
+      "pixar_animation",
+      "cartoon_illustration"
+    ]
+  },
+  {
+    "type": "家庭",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  },
+  {
+    "type": "青少年",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  },
+  {
+    "type": "青春文学",
+    "upgrade_to_item_id": [
+      "jonny_duddle"
+    ]
+  }
+]
