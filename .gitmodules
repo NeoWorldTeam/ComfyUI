@@ -38,3 +38,6 @@
 [submodule "ComfyUI_IPAdapter_plus"]
 	path = custom_nodes/ComfyUI_IPAdapter_plus
 	url = https://gitee.com/custom_nodes_clone/ComfyUI_IPAdapter_plus.git
+[submodule "custom_nodes/comfyui_stable_fast"]
+	path = custom_nodes/comfyui_stable_fast
+	url = https://github.com/gameltb/ComfyUI_stable_fast.git
