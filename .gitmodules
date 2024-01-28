@@ -1,0 +1,40 @@
+
+[submodule "ComfyUI-Impact-Pack"]
+	path = custom_nodes\ComfyUI-Impact-Pack
+	url = https://gitee.com/custom_nodes_clone/ComfyUI-Impact-Pack.git
+
+[submodule "comfyui-inpaint-nodes"]
+	path = custom_nodes\comfyui-inpaint-nodes
+	url = https://github.com/Acly/comfyui-inpaint-nodes.git
+
+[submodule "ComfyUI-Inspire-Pack"]
+	path = custom_nodes\ComfyUI-Inspire-Pack
+	url = https://gitee.com/custom_nodes_clone/ComfyUI-Inspire-Pack.git
+
+[submodule "ComfyUI-LCM"]
+	path = custom_nodes\ComfyUI-LCM
+	url = https://gitee.com/custom_nodes_clone/ComfyUI-LCM.git
+
+[submodule "ComfyUI-Manager"]
+	path = custom_nodes\ComfyUI-Manager
+	url = https://github.com/ltdrdata/ComfyUI-Manager.git
+
+[submodule "comfyui-profiler"]
+	path = custom_nodes\comfyui-profiler
+	url = https://github.com/tzwm/comfyui-profiler.git
+
+[submodule "ComfyUI_Comfyroll_CustomNodes"]
+	path = custom_nodes\ComfyUI_Comfyroll_CustomNodes
+	url = https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes
+
+[submodule "ComfyUI_essentials"]
+	path = custom_nodes\ComfyUI_essentials
+	url = https://github.com/cubiq/ComfyUI_essentials
+
+[submodule "ComfyUI_FizzNodes"]
+	path = custom_nodes\ComfyUI_FizzNodes
+	url = https://gitee.com/custom_nodes_clone/ComfyUI_FizzNodes.git
+
+[submodule "ComfyUI_IPAdapter_plus"]
+	path = custom_nodes\ComfyUI_IPAdapter_plus
+	url = https://gitee.com/custom_nodes_clone/ComfyUI_IPAdapter_plus.git
