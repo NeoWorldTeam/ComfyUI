@@ -1,7 +1,7 @@
 
 [submodule "ComfyUI-Impact-Pack"]
 	path = custom_nodes/ComfyUI-Impact-Pack
-	url = https://gitee.com/custom_nodes_clone/ComfyUI-Impact-Pack.git
+	url = https://github.com/NeoWorldTeam/ComfyUI-Impact-Pack
 
 [submodule "comfyui-inpaint-nodes"]
 	path = custom_nodes/comfyui-inpaint-nodes
@@ -9,7 +9,7 @@
 
 [submodule "ComfyUI-Inspire-Pack"]
 	path = custom_nodes/ComfyUI-Inspire-Pack
-	url = https://gitee.com/custom_nodes_clone/ComfyUI-Inspire-Pack.git
+	url = https://github.com/ltdrdata/ComfyUI-Inspire-Pack
 
 [submodule "ComfyUI-LCM"]
 	path = custom_nodes/ComfyUI-LCM
@@ -33,11 +33,11 @@
 
 [submodule "ComfyUI_FizzNodes"]
 	path = custom_nodes/ComfyUI_FizzNodes
-	url = https://gitee.com/custom_nodes_clone/ComfyUI_FizzNodes.git
+	url = https://github.com/FizzleDorf/ComfyUI_FizzNodes
 
 [submodule "ComfyUI_IPAdapter_plus"]
 	path = custom_nodes/ComfyUI_IPAdapter_plus
-	url = https://gitee.com/custom_nodes_clone/ComfyUI_IPAdapter_plus.git
+	url = https://github.com/cubiq/ComfyUI_IPAdapter_plus
 [submodule "custom_nodes/comfyui_stable_fast"]
 	path = custom_nodes/comfyui_stable_fast
 	url = https://github.com/gameltb/ComfyUI_stable_fast.git
