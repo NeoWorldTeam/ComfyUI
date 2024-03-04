@@ -1,6 +1,8 @@
+
 [submodule "ComfyUI-layerdiffusion"]
 	path = custom_nodes/comfyui-layerdiffusion
 	url = https://github.com/huchenlei/ComfyUI-layerdiffusion.git
+
 
 [submodule "ComfyUI-Impact-Pack"]
 	path = custom_nodes/ComfyUI-Impact-Pack
