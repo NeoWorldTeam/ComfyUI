@@ -12,6 +12,9 @@ done
 echo "Updating main repository..."
 git pull --rebase
 
+echo "Initializing and updating submodules..."
+git submodule update --init --recursive
+
 echo "Updating submodules..."
 git submodule foreach --recursive 'git fetch --all'
 git submodule foreach --recursive 'git merge --no-commit --no-ff -s recursive -X theirs'
