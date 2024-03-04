@@ -15,11 +15,7 @@
 [submodule "ComfyUI-Inspire-Pack"]
 	path = custom_nodes/ComfyUI-Inspire-Pack
 	url = https://github.com/ltdrdata/ComfyUI-Inspire-Pack
-
-[submodule "ComfyUI-LCM"]
-	path = custom_nodes/ComfyUI-LCM
-	url = https://gitee.com/custom_nodes_clone/ComfyUI-LCM.git
-
+	
 [submodule "ComfyUI-Manager"]
 	path = custom_nodes/ComfyUI-Manager
 	url = https://github.com/ltdrdata/ComfyUI-Manager.git
