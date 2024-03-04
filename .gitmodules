@@ -41,3 +41,7 @@
 [submodule "custom_nodes/comfyui_stable_fast"]
 	path = custom_nodes/comfyui_stable_fast
 	url = https://github.com/gameltb/ComfyUI_stable_fast.git
+
+[submodule "custom_nodes/comfyui_stable_fast"]
+	path = custom_nodes/comfyui-layerdiffusion
+	url = https://github.com/huchenlei/ComfyUI-layerdiffusion.git
