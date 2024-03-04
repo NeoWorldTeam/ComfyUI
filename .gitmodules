@@ -1,4 +1,4 @@
-[submodule "comfyui_layerdiffusion"]
+[submodule "ComfyUI-layerdiffusion"]
 	path = custom_nodes/comfyui-layerdiffusion
 	url = https://github.com/huchenlei/ComfyUI-layerdiffusion.git
 
