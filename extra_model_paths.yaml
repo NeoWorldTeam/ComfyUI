@@ -22,7 +22,7 @@ a111:
     controlnet: models/ControlNet
     ipadapter: models/IPAdapter
     insightface: models/InsightFace
-    layer_model: models/LayerModel
+    layer_models: models/LayerModel
 
 #config for comfyui
 #your base path should be either an existing comfy install or a central folder where you store all of your models, loras, etc.
