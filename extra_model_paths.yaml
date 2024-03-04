@@ -11,6 +11,7 @@ a111:
     vae: models/VAE
     loras: |
          models/Lora
+         models/lora
          models/LyCORIS
     upscale_models: |
                   models/ESRGAN
@@ -21,6 +22,7 @@ a111:
     controlnet: models/ControlNet
     ipadapter: models/IPAdapter
     insightface: models/InsightFace
+    layer_model: models/LayerModel
 
 #config for comfyui
 #your base path should be either an existing comfy install or a central folder where you store all of your models, loras, etc.
