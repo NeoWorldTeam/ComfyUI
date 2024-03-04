@@ -1,4 +1,4 @@
-[submodule "custom_nodes/comfyui_stable_fast"]
+[submodule "comfyui_layerdiffusion"]
 	path = custom_nodes/comfyui-layerdiffusion
 	url = https://github.com/huchenlei/ComfyUI-layerdiffusion.git
 
@@ -41,7 +41,8 @@
 [submodule "ComfyUI_IPAdapter_plus"]
 	path = custom_nodes/ComfyUI_IPAdapter_plus
 	url = https://github.com/cubiq/ComfyUI_IPAdapter_plus
-[submodule "custom_nodes/comfyui_stable_fast"]
+
+[submodule "comfyui_stable_fast"]
 	path = custom_nodes/comfyui_stable_fast
 	url = https://github.com/gameltb/ComfyUI_stable_fast.git
 
