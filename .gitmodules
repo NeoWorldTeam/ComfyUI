@@ -42,3 +42,6 @@
 [submodule "custom_nodes/comfyui-layerdiffusion"]
 	path = custom_nodes/comfyui-layerdiffusion
 	url = https://github.com/chenbaiyujason/ComfyUI-layerdiffusion-cn.git
+[submodule "custom_nodes/ComfyUI_InstantID"]
+	path = custom_nodes/ComfyUI_InstantID
+	url = https://github.com/cubiq/ComfyUI_InstantID.git

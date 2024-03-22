@@ -1,0 +1,203 @@
+** ComfyUI startup time: 2024-03-22 17:22:02.022892
+[2024-03-22 17:22] ** Platform: Windows
+[2024-03-22 17:22] ** Python version: 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+[2024-03-22 17:22] ** Python executable: D:\GITHUB\ComfyUI_worker\venv\Scripts\python.exe
+[2024-03-22 17:22] ** Log path: D:\GITHUB\ComfyUI_worker\comfyui.log
+[2024-03-22 17:22] 
+Prestartup times for custom nodes:
+[2024-03-22 17:22]    0.0 seconds: D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI-Manager
+[2024-03-22 17:22] 
+Set cuda device to: 0
+[2024-03-22 17:22] Total VRAM 16376 MB, total RAM 65349 MB
+[2024-03-22 17:22] Set vram state to: HIGH_VRAM
+[2024-03-22 17:22] Device: cuda:0 NVIDIA GeForce RTX 4080 : cudaMallocAsync
+[2024-03-22 17:22] VAE dtype: torch.float16
+[2024-03-22 17:22] disabling upcasting of attention
+[2024-03-22 17:22] Using pytorch cross attention
+[2024-03-22 17:22] Adding extra search path checkpoints /root/autodl-tmp/story-if-worker\models/Stable-diffusion
+[2024-03-22 17:22] Adding extra search path configs /root/autodl-tmp/story-if-worker\models/Stable-diffusion
+[2024-03-22 17:22] Adding extra search path vae /root/autodl-tmp/story-if-worker\models/VAE
+[2024-03-22 17:22] Adding extra search path loras /root/autodl-tmp/story-if-worker\models/Lora
+[2024-03-22 17:22] Adding extra search path loras /root/autodl-tmp/story-if-worker\models/lora
+[2024-03-22 17:22] Adding extra search path loras /root/autodl-tmp/story-if-worker\models/LyCORIS
+[2024-03-22 17:22] Adding extra search path upscale_models /root/autodl-tmp/story-if-worker\models/ESRGAN
+[2024-03-22 17:22] Adding extra search path upscale_models /root/autodl-tmp/story-if-worker\models/RealESRGAN
+[2024-03-22 17:22] Adding extra search path upscale_models /root/autodl-tmp/story-if-worker\models/SwinIR
+[2024-03-22 17:22] Adding extra search path embeddings /root/autodl-tmp/story-if-worker\models/embeddings
+[2024-03-22 17:22] Adding extra search path hypernetworks /root/autodl-tmp/story-if-worker\models/hypernetworks
+[2024-03-22 17:22] Adding extra search path controlnet /root/autodl-tmp/story-if-worker\models/ControlNet
+[2024-03-22 17:22] Adding extra search path ipadapter /root/autodl-tmp/story-if-worker\models/IPAdapter
+[2024-03-22 17:22] Adding extra search path insightface /root/autodl-tmp/story-if-worker\models/InsightFace
+[2024-03-22 17:22] Adding extra search path layer_models /root/autodl-tmp/story-if-worker\models/LayerModel
+[2024-03-22 17:22] Traceback (most recent call last):
+  File "D:\GITHUB\ComfyUI_worker\nodes.py", line 1888, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\GITHUB\ComfyUI_worker\comfy_extras\nodes_canny.py", line 8, in <module>
+    from kornia.filters import canny
+ModuleNotFoundError: No module named 'kornia'
+
+[2024-03-22 17:22] Cannot import D:\GITHUB\ComfyUI_worker\comfy_extras\nodes_canny.py module for custom nodes: No module named 'kornia'
+[2024-03-22 17:22] Traceback (most recent call last):
+  File "D:\GITHUB\ComfyUI_worker\nodes.py", line 1888, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\GITHUB\ComfyUI_worker\comfy_extras\nodes_morphology.py", line 4, in <module>
+    from kornia.morphology import dilation, erosion, opening, closing, gradient, top_hat, bottom_hat
+ModuleNotFoundError: No module named 'kornia'
+
+[2024-03-22 17:22] Cannot import D:\GITHUB\ComfyUI_worker\comfy_extras\nodes_morphology.py module for custom nodes: No module named 'kornia'
+[2024-03-22 17:22] ### Loading: ComfyUI-Impact-Pack (V4.84)
+[2024-03-22 17:22] ### Loading: ComfyUI-Impact-Pack (Subpack: V0.4)
+[2024-03-22 17:22] [Impact Pack] Wildcards loading done.
+[2024-03-22 17:22] ### Loading: ComfyUI-Inspire-Pack (V0.61.2)
+[2024-03-22 17:22] ### Loading: ComfyUI-Manager (V2.9)
+[2024-03-22 17:22] ### ComfyUI Revision: 2109 [e0704b4e] | Released on '2024-03-22'
+[2024-03-22 17:22] ------------------------------------------
+[2024-03-22 17:22] [34mComfyroll Studio v1.76 : [92m 175 Nodes Loaded[0m
+[2024-03-22 17:22] ------------------------------------------
+[2024-03-22 17:22] ** For changes, please see patch notes at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/blob/main/Patch_Notes.md
+[2024-03-22 17:22] ** For help, please see the wiki at https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes/wiki
+[2024-03-22 17:22] ------------------------------------------
+[2024-03-22 17:22] Traceback (most recent call last):
+  File "D:\GITHUB\ComfyUI_worker\nodes.py", line 1888, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI_FizzNodes\__init__.py", line 57, in <module>
+    from .ScheduledNodes import (
+  File "D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI_FizzNodes\ScheduledNodes.py", line 4, in <module>
+    import numexpr
+ModuleNotFoundError: No module named 'numexpr'
+
+[2024-03-22 17:22] Cannot import D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI_FizzNodes module for custom nodes: No module named 'numexpr'
+[2024-03-22 17:22] Traceback (most recent call last):
+  File "D:\GITHUB\ComfyUI_worker\nodes.py", line 1888, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI_InstantID\__init__.py", line 1, in <module>
+    from .InstantID import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
+  File "D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI_InstantID\InstantID.py", line 12, in <module>
+    from insightface.app import FaceAnalysis
+ModuleNotFoundError: No module named 'insightface'
+
+[2024-03-22 17:22] Cannot import D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI_InstantID module for custom nodes: No module named 'insightface'
+[2024-03-22 17:22] ComfyUI_stable_fast: StableFast node import failed.
+[2024-03-22 17:22] Traceback (most recent call last):
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui_stable_fast\__init__.py", line 10, in <module>
+    from .node import ApplyStableFastUnet
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui_stable_fast\node.py", line 2, in <module>
+    from sfast.compilers.diffusion_pipeline_compiler import CompilationConfig
+[2024-03-22 17:22] ModuleNotFoundError: No module named 'sfast'
+[2024-03-22 17:22] [2024-03-22 17:22] ComfyUI_stable_fast: tensorrt_node import failed.
+Traceback (most recent call last):
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui_stable_fast\__init__.py", line 26, in <module>
+    from .tensorrt_node import (
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui_stable_fast\tensorrt_node.py", line 13, in <module>
+    from .module.controlnet_tensorrt import (
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui_stable_fast\module\controlnet_tensorrt.py", line 1, in <module>
+    from .tensorrt_wrapper import CallableTensorRTEngineWrapper
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui_stable_fast\module\tensorrt_wrapper.py", line 19, in <module>
+    from .tensorrt_utilities import Engine
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui_stable_fast\module\tensorrt_utilities.py", line 24, in <module>
+    import onnx
+[2024-03-22 17:22] ModuleNotFoundError: No module named 'onnx'
+[2024-03-22 17:22] Traceback (most recent call last):
+  File "D:\GITHUB\ComfyUI_worker\nodes.py", line 1888, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui_stable_fast\__init__.py", line 49, in <module>
+    raise Exception("import failed")
+Exception: import failed
+
+[2024-03-22 17:22] Cannot import D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui_stable_fast module for custom nodes: import failed
+[2024-03-22 17:22] NODE_CLASS_MAPPINGS: {'AspectRatio': <class 'custom_nodes.neo_custom_node.src.gen_input.AspectRatio'>, 'NeoParam': <class 'custom_nodes.neo_custom_node.src.gen_input.NeoParam'>, 'SDXLPromptOnlyStyler': <class 'custom_nodes.neo_custom_node.src.style.select.SDXLPromptOnlyStyler'>, 'SDXLStoryPromptStyler': <class 'custom_nodes.neo_custom_node.src.style.select.SDXLStoryPromptStyler'>, 'EasyPromptSelecto': <class 'custom_nodes.neo_custom_node.src.style.EasyPromptSelecto.EasyPromptSelecto'>, 'StyleSelecto': <class 'custom_nodes.neo_custom_node.src.style.StyleSelecto.StyleSelecto'>, 'LatentInterposer': <class 'custom_nodes.neo_custom_node.src.comfy_latent_interposer.LatentInterposer'>}
+[2024-03-22 17:22] NODE_DISPLAY_NAME_MAPPINGS: {'AspectRatio': '宽高比', 'NeoParam': 'Neo参数', 'SDXLPromptOnlyStyler': 'SDXL Prompt Styler', 'SDXLStoryPromptStyler': 'SDXL Story Prompt Styler', 'EasyPromptSelecto': '提示词选择工具', 'StyleSelecto': '风格选择器', 'LatentInterposer': 'Latent Interposer'}
+[2024-03-22 17:22] NODE_CLASS_MAPPINGS: {'AspectRatio': <class 'neo_custom_node.src.gen_input.AspectRatio'>, 'NeoParam': <class 'neo_custom_node.src.gen_input.NeoParam'>, 'SDXLPromptOnlyStyler': <class 'neo_custom_node.src.style.select.SDXLPromptOnlyStyler'>, 'SDXLStoryPromptStyler': <class 'neo_custom_node.src.style.select.SDXLStoryPromptStyler'>, 'EasyPromptSelecto': <class 'neo_custom_node.src.style.EasyPromptSelecto.EasyPromptSelecto'>, 'StyleSelecto': <class 'neo_custom_node.src.style.StyleSelecto.StyleSelecto'>, 'LatentInterposer': <class 'neo_custom_node.src.comfy_latent_interposer.LatentInterposer'>}
+[2024-03-22 17:22] NODE_DISPLAY_NAME_MAPPINGS: {'AspectRatio': '宽高比', 'NeoParam': 'Neo参数', 'SDXLPromptOnlyStyler': 'SDXL Prompt Styler', 'SDXLStoryPromptStyler': 'SDXL Story Prompt Styler', 'EasyPromptSelecto': '提示词选择工具', 'StyleSelecto': '风格选择器', 'LatentInterposer': 'Latent Interposer'}
+[2024-03-22 17:22] 
+Import times for custom nodes:
+[2024-03-22 17:22]    0.0 seconds: D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui-profiler
+[2024-03-22 17:22]    0.0 seconds: D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI_IPAdapter_plus
+[2024-03-22 17:22]    0.0 seconds (IMPORT FAILED): D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI_FizzNodes
+[2024-03-22 17:22]    0.0 seconds: D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui-inpaint-nodes
+[2024-03-22 17:22]    0.0 seconds (IMPORT FAILED): D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui_stable_fast
+[2024-03-22 17:22]    0.0 seconds: D:\GITHUB\ComfyUI_worker\custom_nodes\efficiency-nodes-comfyui-jags
+[2024-03-22 17:22]    0.0 seconds (IMPORT FAILED): D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI_InstantID
+[2024-03-22 17:22]    0.0 seconds: D:\GITHUB\ComfyUI_worker\custom_nodes\neo_custom_node
+[2024-03-22 17:22]    0.0 seconds: D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI_essentials
+[2024-03-22 17:22]    0.0 seconds: D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI_Comfyroll_CustomNodes
+[2024-03-22 17:22]    0.0 seconds: D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI-Inspire-Pack
+[2024-03-22 17:22]    0.2 seconds: D:\GITHUB\ComfyUI_worker\custom_nodes\comfyui-layerdiffusion
+[2024-03-22 17:22]    0.4 seconds: D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI-Manager
+[2024-03-22 17:22]    0.9 seconds: D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI-Impact-Pack
+[2024-03-22 17:22] 
+[2024-03-22 17:22] WARNING: some comfy_extras/ nodes did not import correctly. This may be because they are missing some dependencies.
+
+[2024-03-22 17:22] IMPORT FAILED: nodes_canny.py
+[2024-03-22 17:22] IMPORT FAILED: nodes_morphology.py
+[2024-03-22 17:22] 
+This issue might be caused by new missing dependencies added the last time you updated ComfyUI.
+[2024-03-22 17:22] Please do a: pip install -r requirements.txt
+[2024-03-22 17:22] 
+[2024-03-22 17:22] Starting server
+
+[2024-03-22 17:22] To see the GUI go to: http://127.0.0.1:6006
+[2024-03-22 17:22] FETCH DATA from: D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI-Manager\extension-node-map.json
+[2024-03-22 17:22] Exception in thread Thread-6 (<lambda>):
+[2024-03-22 17:22] Traceback (most recent call last):
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\venv\lib\site-packages\aiohttp\connector.py", line 992, in _wrap_create_connection
+[2024-03-22 17:22]     return await self._loop.create_connection(*args, **kwargs)
+[2024-03-22 17:22]   File "C:\Users\MLoong\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1064, in create_connection
+[2024-03-22 17:22]     raise exceptions[0]
+[2024-03-22 17:22]   File "C:\Users\MLoong\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1049, in create_connection
+[2024-03-22 17:22]     sock = await self._connect_sock(
+[2024-03-22 17:22]   File "C:\Users\MLoong\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 960, in _connect_sock
+[2024-03-22 17:22]     await self.sock_connect(sock, address)
+[2024-03-22 17:22]   File "C:\Users\MLoong\AppData\Local\Programs\Python\Python310\lib\asyncio\proactor_events.py", line 705, in sock_connect
+[2024-03-22 17:22]     return await self._proactor.connect(sock, address)
+[2024-03-22 17:22]   File "C:\Users\MLoong\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 817, in _poll
+[2024-03-22 17:22]     value = callback(transferred, key, ov)
+[2024-03-22 17:22]   File "C:\Users\MLoong\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 604, in finish_connect
+[2024-03-22 17:22]     ov.getresult()
+[2024-03-22 17:22] OSError: [WinError 121] 信号灯超时时间已到
+[2024-03-22 17:22] 
+The above exception was the direct cause of the following exception:
+
+[2024-03-22 17:22] Traceback (most recent call last):
+[2024-03-22 17:22]   File "C:\Users\MLoong\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+[2024-03-22 17:22]     self.run()
+[2024-03-22 17:22]   File "C:\Users\MLoong\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+[2024-03-22 17:22]     self._target(*self._args, **self._kwargs)
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI-Manager\__init__.py", line 2400, in <lambda>
+[2024-03-22 17:22]     threading.Thread(target=lambda: asyncio.run(default_cache_update())).start()
+[2024-03-22 17:22]   File "C:\Users\MLoong\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 44, in run
+[2024-03-22 17:22]     return loop.run_until_complete(main)
+[2024-03-22 17:22]   File "C:\Users\MLoong\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 646, in run_until_complete
+[2024-03-22 17:22]     return future.result()
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI-Manager\__init__.py", line 2397, in default_cache_update
+[2024-03-22 17:22]     await asyncio.gather(a, b, c, d)
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI-Manager\__init__.py", line 2385, in get_cache
+[2024-03-22 17:22]     json_obj = await get_data(uri, True)
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI-Manager\__init__.py", line 551, in get_data
+[2024-03-22 17:22]     async with session.get(uri) as resp:
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\venv\lib\site-packages\aiohttp\client.py", line 1187, in __aenter__
+[2024-03-22 17:22]     self._resp = await self._coro
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\venv\lib\site-packages\aiohttp\client.py", line 574, in _request
+[2024-03-22 17:22]     conn = await self._connector.connect(
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\venv\lib\site-packages\aiohttp\connector.py", line 544, in connect
+[2024-03-22 17:22]     proto = await self._create_connection(req, traces, timeout)
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\venv\lib\site-packages\aiohttp\connector.py", line 911, in _create_connection
+[2024-03-22 17:22]     _, proto = await self._create_direct_connection(req, traces, timeout)
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\venv\lib\site-packages\aiohttp\connector.py", line 1235, in _create_direct_connection
+[2024-03-22 17:22]     raise last_exc
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\venv\lib\site-packages\aiohttp\connector.py", line 1204, in _create_direct_connection
+[2024-03-22 17:22]     transp, proto = await self._wrap_create_connection(
+[2024-03-22 17:22]   File "D:\GITHUB\ComfyUI_worker\venv\lib\site-packages\aiohttp\connector.py", line 1000, in _wrap_create_connection
+[2024-03-22 17:22]     raise client_error(req.connection_key, exc) from exc
+[2024-03-22 17:22] aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host raw.githubusercontent.com:443 ssl:default [信号灯超时时间已到]
+[2024-03-22 17:22] FETCH DATA from: D:\GITHUB\ComfyUI_worker\custom_nodes\ComfyUI-Manager\extension-node-map.json
