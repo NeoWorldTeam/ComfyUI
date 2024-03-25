@@ -45,3 +45,6 @@
 [submodule "custom_nodes/ComfyUI_InstantID"]
 	path = custom_nodes/ComfyUI_InstantID
 	url = https://github.com/cubiq/ComfyUI_InstantID.git
+[submodule "custom_nodes/comfyui_controlnet_aux"]
+	path = custom_nodes/comfyui_controlnet_aux
+	url = https://github.com/Fannovel16/comfyui_controlnet_aux
