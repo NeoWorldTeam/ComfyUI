@@ -6,6 +6,8 @@ import uuid
 
 import comfy.utils
 import comfy.model_management
+from comfy.types import UnetWrapperFunction
+
 
 def apply_weight_decompose(dora_scale, weight):
     weight_norm = (
@@ -16,7 +18,7 @@ def apply_weight_decompose(dora_scale, weight):
         .transpose(0, 1)
     )
 
-    return weight * (dora_scale / weight_norm)
+    return weight * (dora_scale / weight_norm).type(weight.dtype)
 
 def set_model_options_patch_replace(model_options, patch, name, block_name, number, transformer_index=None):
     to = model_options["transformer_options"].copy()
@@ -117,7 +119,7 @@ class ModelPatcher:
         if disable_cfg1_optimization:
             self.model_options["disable_cfg1_optimization"] = True
 
-    def set_model_unet_function_wrapper(self, unet_wrapper_function):
+    def set_model_unet_function_wrapper(self, unet_wrapper_function: UnetWrapperFunction):
         self.model_options["model_function_wrapper"] = unet_wrapper_function
 
     def set_model_denoise_mask_function(self, denoise_mask_function):
