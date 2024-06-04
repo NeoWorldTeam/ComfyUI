@@ -15,6 +15,7 @@
 	path = custom_nodes/ComfyUI-Manager
 	url = https://github.com/ltdrdata/ComfyUI-Manager.git
 
+	branch = main
 [submodule "comfyui-profiler"]
 	path = custom_nodes/comfyui-profiler
 	url = https://github.com/tzwm/comfyui-profiler.git
