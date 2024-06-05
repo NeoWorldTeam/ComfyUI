@@ -4,7 +4,7 @@
 #config for a1111 ui
 #all you have to do is change the base_path to where yours is installed
 a111:
-    base_path: /root/autodl-tmp/story-if-worker
+    base_path: ../story-if-worker
 
     checkpoints: models/Stable-diffusion
     configs: models/Stable-diffusion
