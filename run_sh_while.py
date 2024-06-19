@@ -27,12 +27,12 @@ def run_shell_script(script_path):
         # 检查脚本是否已停止
         poll = process.poll()
         if poll is None:
-            print("脚本正在运行...")
+            print("comfy脚本正在运行...")
         else:
-            print("脚本停止运行，正在重启...")
+            print("comfy脚本停止运行，正在重启...")
 
         # 短暂休眠，避免无限快速重启
-        time.sleep(10)
+        time.sleep(3)
 
 
 def parse_arguments():
