@@ -11,14 +11,6 @@
 	path = custom_nodes/ComfyUI-Inspire-Pack
 	url = https://github.com/ltdrdata/ComfyUI-Inspire-Pack
 
-[submodule "ComfyUI-Manager"]
-	path = custom_nodes/ComfyUI-Manager
-	url = https://github.com/ltdrdata/ComfyUI-Manager.git
-
-[submodule "comfyui-profiler"]
-	path = custom_nodes/comfyui-profiler
-	url = https://github.com/tzwm/comfyui-profiler.git
-
 [submodule "ComfyUI_Comfyroll_CustomNodes"]
 	path = custom_nodes/ComfyUI_Comfyroll_CustomNodes
 	url = https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes
