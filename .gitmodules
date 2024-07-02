@@ -44,3 +44,6 @@
 [submodule "custom_nodes/res-adapter"]
 	path = custom_nodes/res-adapter
 	url = https://github.com/NeoWorldTeam/ComfyUI-ResAdapter-cn
+[submodule "custom_nodes/ComfyUI-AutomaticCFG"]
+	path = custom_nodes/ComfyUI-AutomaticCFG
+	url = https://github.com/Extraltodeus/ComfyUI-AutomaticCFG
