@@ -1,3 +1,4 @@
+import nodes
 from .k_diffusion import sampling as k_diffusion_sampling
 from .extra_samplers import uni_pc
 import torch
@@ -697,24 +698,28 @@ def sample(model, noise, positive, negative, cfg, device, sampler, sigmas, model
     return cfg_guider.sample(noise, latent_image, sampler, sigmas, denoise_mask, callback, disable_pbar, seed)
 
 
-SCHEDULER_NAMES = ["normal", "karras", "exponential", "sgm_uniform", "simple", "ddim_uniform"]
+SCHEDULER_NAMES = ["normal", "karras", "exponential", "sgm_uniform", "simple", "ddim_uniform"] + ['gits']
 SAMPLER_NAMES = KSAMPLER_NAMES + ["ddim", "uni_pc", "uni_pc_bh2"]
 
 def calculate_sigmas(model_sampling, scheduler_name, steps):
-    if scheduler_name == "karras":
-        sigmas = k_diffusion_sampling.get_sigmas_karras(n=steps, sigma_min=float(model_sampling.sigma_min), sigma_max=float(model_sampling.sigma_max))
-    elif scheduler_name == "exponential":
-        sigmas = k_diffusion_sampling.get_sigmas_exponential(n=steps, sigma_min=float(model_sampling.sigma_min), sigma_max=float(model_sampling.sigma_max))
-    elif scheduler_name == "normal":
-        sigmas = normal_scheduler(model_sampling, steps)
-    elif scheduler_name == "simple":
-        sigmas = simple_scheduler(model_sampling, steps)
-    elif scheduler_name == "ddim_uniform":
-        sigmas = ddim_scheduler(model_sampling, steps)
-    elif scheduler_name == "sgm_uniform":
-        sigmas = normal_scheduler(model_sampling, steps, sgm=True)
+    if scheduler_name.startswith('gits'):
+        sigmas = nodes.NODE_CLASS_MAPPINGS['GITSScheduler']().get_sigmas(1.2, steps, denoise=1.0)[0]
+
     else:
-        logging.error("error invalid scheduler {}".format(scheduler_name))
+        if scheduler_name == "karras":
+            sigmas = k_diffusion_sampling.get_sigmas_karras(n=steps, sigma_min=float(model_sampling.sigma_min), sigma_max=float(model_sampling.sigma_max))
+        elif scheduler_name == "exponential":
+            sigmas = k_diffusion_sampling.get_sigmas_exponential(n=steps, sigma_min=float(model_sampling.sigma_min), sigma_max=float(model_sampling.sigma_max))
+        elif scheduler_name == "normal":
+            sigmas = normal_scheduler(model_sampling, steps)
+        elif scheduler_name == "simple":
+            sigmas = simple_scheduler(model_sampling, steps)
+        elif scheduler_name == "ddim_uniform":
+            sigmas = ddim_scheduler(model_sampling, steps)
+        elif scheduler_name == "sgm_uniform":
+            sigmas = normal_scheduler(model_sampling, steps, sgm=True)
+        else:
+            logging.error("error invalid scheduler {}".format(scheduler_name))
     return sigmas
 
 def sampler_object(name):
