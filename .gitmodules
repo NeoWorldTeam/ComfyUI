@@ -48,7 +48,3 @@
 	path = custom_nodes/ComfyUI-AutomaticCFG
 	url = https://github.com/Extraltodeus/ComfyUI-AutomaticCFG
 
-[submodule "custom_nodes/ComfyUI_ADV_CLIP_emb"]
-	path = custom_nodes/ComfyUI_ADV_CLIP_emb
-	url = https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb
-
